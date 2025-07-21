@@ -1,0 +1,36 @@
+-- Database: dvdrental
+
+-- DROP DATABASE IF EXISTS dvdrental;
+
+CREATE DATABASE dvdrental
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_India.1252'
+    LC_CTYPE = 'English_India.1252'
+    LOCALE_PROVIDER = 'libc'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+-------------------------------------------------------------------------------------------------------------------
+
+/*
+Situation 1:
+We want to send out a promotional email to our existing customers!
+*/
+
+select first_name,last_name,email from customer
+
+-------------------------------------------------------------------------------------------------------------------
+
+/*
+Situation 2:
+An Australian visitor isn't familiar with MPAA movie ratings (e.g: PG, PG-13, R etc,.)
+We want to know the types of ratings we have in our database.
+What ratings do we have available?
+*/
+
+select distinct(rating) from film
+
+-------------------------------------------------------------------------------------------------------------------
+
