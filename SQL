@@ -33,4 +33,37 @@ What ratings do we have available?
 select distinct(rating) from film
 
 -------------------------------------------------------------------------------------------------------------------
+/*
+Situation 3:
+A customer forgot their wallet at our store! We need to track down their email to inform them.
+
+What's the email for the customer with the name Nancy Thomas?
+
+*/
+select email from customer
+where first_name='Nancy' and last_name='Thomas'
+
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 4:
+A customer wants to know what the movie "Outlaw Hankey" is about.
+
+Could you give them the description for the movie "Outlaw Hanky"?
+*/
+select description from film
+where title = 'Outlaw Hanky'
+
+-------------------------------------------------------------------------------------------------------------------
+
+/*
+Situation 5:
+A customer is late on their movie return, and we've them a letter to their address at '259 Ipoh Drive'. We should also call them on the phone to let them know.
+
+Can you get the phone number for the customer who lives at '259 Ipoh Drive'?
+*/
+select phone from address
+where address='259 Ipoh Drive'
+
+-------------------------------------------------------------------------------------------------------------------
+
 
