@@ -172,4 +172,23 @@ group by customer_id
 order by sum(Amount) desc
 limit 5
 -------------------------------------------------------------------------------------------------------------------
+/*
+Situation 18:
+We are launching a platinum service for our most loyal customers. We will assign platinum status to customers that have 40 or more transaction payments.
+What customer_ids are eligible for platinum status?
+*/
+
+select customer_id,count(amount) from payment
+group by customer_id
+having count(amount)>=40
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 19:
+What are the customer ids of customers who have spent more than $100 in payment transactions with our staff_id member 2?
+*/
+
+select customer_id,sum(amount) from payment
+where staff_id=2
+group by customer_id
+having sum(amount)>100
 
