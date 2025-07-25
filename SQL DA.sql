@@ -1,3 +1,34 @@
+
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 22:
+What customer has the highest customer ID number whose name starts with an 'E' and has an address ID lower than 500
+*/
+select first_name,last_name from customer
+where first_name ilike 'E%' and address_id<500
+order by customer_id desc
+limit 1
+
+
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 21:
+How many films begin with the letter J
+*/
+select count(*) from film
+where title ilike 'J%'
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 20:
+Return the customer IDs of customers who have spent atlease $110 with the staff member who has an ID of 2
+*/
+select customer_id,sum(amount) from payment
+where staff_id=2
+group by customer_id
+having sum(amount)>=110
+
+-------------------------------------------------------------------------------------------------------------------
+
 -- Database: dvdrental
 
 -- DROP DATABASE IF EXISTS dvdrental;
