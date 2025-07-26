@@ -1,6 +1,29 @@
 
 -------------------------------------------------------------------------------------------------------------------
 /*
+Situation 24:
+A customer walks in and is a huge fan of the actor "Nick Wahlberg" and wants to know which movies he is in.
+Get a list of all the movies "Nick Wahlberg" has been in
+*/
+select title,first_name,last_name from film
+join film_actor
+on film.film_id=film_actor.film_id
+join actor
+on film_actor.actor_id=actor.actor_id
+where first_name='Nick' and last_name='Wahlberg'
+
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 23:
+California sales tax laws have changed amd we need to alert our customers to this through email
+What are the emails of the customers who live in California?
+*/
+select email,district from address 
+join customer
+on address.address_id=customer.address_id
+where district='California'
+-------------------------------------------------------------------------------------------------------------------
+/*
 Situation 22:
 What customer has the highest customer ID number whose name starts with an 'E' and has an address ID lower than 500
 */
