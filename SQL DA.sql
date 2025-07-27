@@ -1,3 +1,33 @@
+/*
+Situation 30:
+Find the names of the customers who has made more than $11 payment
+*/
+
+select first_name||' '||last_name as Name from customer as c
+where exists 
+(select * from payment as p
+where p.customer_id=c.customer_id and amount >11)
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 29:
+Find the films that are returned between May 29th 2005 & May 31st 2005
+*/
+
+select title,return_date from rental as r
+left join inventory as i
+on r.inventory_id = i.inventory_id
+left join film as f
+on i.film_id=f.film_id
+where return_date between '2005-05-29' and '2005-06-01'
+order by return_date asc
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 28:
+Find the films that are higher than the average rental rate
+*/
+
+select title from film
+where rental_rate > (select avg(rental_rate) from film)
 -------------------------------------------------------------------------------------------------------------------
 /*
 Situation 27:
