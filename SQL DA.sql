@@ -1,6 +1,23 @@
 
 -------------------------------------------------------------------------------------------------------------------
 /*
+Situation 26:
+How many payments occured on a Monady?
+*/
+
+select count(*) from payment
+where to_char(payment_date,'DAY') ilike 'MONDAY%'
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 25:
+During which months did payments occur?
+Format your answer to return back the full name.
+*/
+
+select distinct(to_char(payment_date,'MONTH')) from payment
+
+-------------------------------------------------------------------------------------------------------------------
+/*
 Situation 24:
 A customer walks in and is a huge fan of the actor "Nick Wahlberg" and wants to know which movies he is in.
 Get a list of all the movies "Nick Wahlberg" has been in
