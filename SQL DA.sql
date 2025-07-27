@@ -1,4 +1,11 @@
+-------------------------------------------------------------------------------------------------------------------
+/*
+Situation 27:
+None of our customers have an email id with our domain name.
+Create an email id for all our customers, take the first four letters if their first name and their complete last name and add '@dvdrental.com' as a suffix
+*/
 
+select first_name,last_name,lower(left(first_name,4))||lower(last_name)||'@dvdrental.com' as email from customer 
 -------------------------------------------------------------------------------------------------------------------
 /*
 Situation 26:
