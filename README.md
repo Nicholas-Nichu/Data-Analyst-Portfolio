@@ -4,22 +4,10 @@ Welcome to my Data Analyst Portfolio! This repository showcases some of my work 
 
 ---
 
-## 📁 Repository Structure
-
-├── Excel/
-│ └── 
-├── SQL/
-│ └── [Your SQL scripts or queries]
-├── Tableau/
-│ └── [README with Tableau links]
-└── README.md
-
----
-
 ## 🔧 Tools & Skills Highlighted
 
 - Microsoft Excel (Pivot Tables, Dashboards, VLOOKUP, Power Query)
-- SQL (Joins, Aggregations, Subqueries, Window Functions)
+- SQL (Joins, Aggregations, Subqueries)
 - Tableau (Interactive Dashboards, Storytelling with Data)
 - Data Cleaning & Transformation
 - Business Intelligence Reporting
