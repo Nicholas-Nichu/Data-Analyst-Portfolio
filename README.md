@@ -25,23 +25,23 @@ Welcome to my Data Analyst Portfolio! This repository showcases some of my work 
 ### SQL Project
 - **Customer Purchase Behavior**  
   Wrote queries to analyze and answers complex questions from a dvd rental database.  
-  [🧾 SQL DA.sql](SQL%20DA.sql)
+  [SQL DA.sql](SQL%20DA.sql)
 
 
 ---
 
-### 🔵 Tableau Dashboards
+### Tableau Dashboard
 - **[Sales Dashboard](https://public.tableau.com/views/MULTIPLEVIZ_16857292310140/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
   Interactive Tableau dashboard visualizing monthly sales trends, customer segments etc,.
 
 ---
 
-## 📫 Contact
+## Contact
 
 If you'd like to connect:
 
-- 📧 Email: nicholas@gmail.com  
-- 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+- Email: nicholasnichu@gmail.com  
+- [LinkedIn](https://www.linkedin.com/in/nicholasnichu/)
 
 ---
 
