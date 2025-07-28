@@ -17,7 +17,7 @@ Welcome to my Data Analyst Portfolio! This repository showcases some of my work 
 ## Projects Overview
 
 ### Excel Projects
-- **[Sales Dashboard](/Excel/SalesDashboard.xlsx)**  
+- **[Excel DA.xlsx](Excel%20DA.xlsx)**  
   Built an interactive dashboard to analyze monthly sales trends, customer segments etc,. also showing the use of developer tools, pivot tables, formulas etc,.
 
 ---
