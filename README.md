@@ -46,3 +46,5 @@ If you'd like to connect:
 ---
 
 Thank you for visiting my portfolio!
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="nicholasnichu" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/nicholasnichu?trk=profile-badge">Nicholas R</a></div>
