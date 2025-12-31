@@ -31,7 +31,7 @@ Welcome to my Data Analyst Portfolio! This repository showcases some of my work 
 ---
 
 ### Tableau Dashboard
-- **[Sales Dashboard](https://public.tableau.com/views/MULTIPLEVIZ_16857292310140/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
+- **[Sales Dashboard](https://public.tableau.com/views/MULTIPLEVIZ_16857292310140/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
   Interactive Tableau dashboard visualizing monthly sales trends, customer segments etc,.
 
 ---
