@@ -17,7 +17,7 @@ Welcome to my Data Analyst Portfolio! This repository showcases some of my work 
 ## Projects Overview
 
 ### Excel Projects
-- **[Data_cleaning_&_sales_dashboard.xlsx](Sales_Dashboard.xlsx)**  
+- **Data cleaning & sales_dashboard.xlsx**  
   Built an interactive dashboard to analyze monthly sales trends, customer segments etc,. also showing the use of developer tools, pivot tables, formulas etc,.
 
 ---
@@ -25,8 +25,6 @@ Welcome to my Data Analyst Portfolio! This repository showcases some of my work 
 ### SQL Project
 - **Customer Purchase Behavior**  
   Wrote queries to analyze and answers complex questions from a dvd rental database.  
-  [Customer_analysis.sql](Customer_analysis.sql)
-
 
 ---
 
