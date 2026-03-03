@@ -6,7 +6,7 @@ This repository showcases hands-on projects using Excel, SQL, and Tableau, focus
 
 ## Tools & Skills
 
-- Microsoft Excel (Pivot Tables, Dashboards, VLOOKUP, Power Query)
+- Microsoft Excel (Pivot Tables, Dashboards, VLOOKUP, VBA)
 - SQL (Joins, Aggregations, Subqueries)
 - Tableau (Interactive Dashboards, Data Visualization)
 - Data Cleaning & Transformation
